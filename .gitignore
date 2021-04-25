@@ -341,4 +341,5 @@ healthchecksdb
 
 
 Temp/
-.sln
+unity-3d-cubes.sln
+Assembly-CSharp.csproj
