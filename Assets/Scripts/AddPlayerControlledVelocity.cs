@@ -13,12 +13,6 @@ public class AddPlayerControlledVelocity : MonoBehaviour
     [SerializeField]
     KeyCode keyNegative;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    // Update is called once per frame
     void FixedUpdate()
     {
         if(Input.GetKey(keyPositive))

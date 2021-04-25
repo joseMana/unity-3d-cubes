@@ -8,13 +8,8 @@ public class RestartLevelButton : MonoBehaviour
     [SerializeField]
     KeyCode restartButton;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         if (Input.GetKey(restartButton))
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);

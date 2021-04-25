@@ -6,12 +6,7 @@ public class AddConstantVelocity : MonoBehaviour
 {
     [SerializeField]
     Vector3 v3_forceVelocity;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    // Update is called once per frame
+  
     void FixedUpdate()
     {
         GetComponent<Rigidbody>().velocity += v3_forceVelocity;
