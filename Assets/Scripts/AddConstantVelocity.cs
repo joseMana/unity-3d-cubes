@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class AddConstantVelocity : MonoBehaviour
 {
+    [SerializeField]
+    Vector3 v3_forceVelocity;
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        GetComponent<Rigidbody>().velocity += new Vector3(0.1f, 0, 0);
+        GetComponent<Rigidbody>().velocity += v3_forceVelocity;
     }
 }
