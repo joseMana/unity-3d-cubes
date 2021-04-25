@@ -343,3 +343,5 @@ healthchecksdb
 Temp/
 unity-3d-cubes.sln
 Assembly-CSharp.csproj
+/Library/ShaderCache/2
+/Library/ShaderCache/9
